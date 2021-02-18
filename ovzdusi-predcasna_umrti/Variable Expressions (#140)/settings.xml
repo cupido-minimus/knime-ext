@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack">
+<config key="Variable_0">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ds_nazev"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Navýšení celkové roční úmrtnosti o „předčasná úmrtí“ [odhad počtu předčasných úmrtí] – pro celou ČR a pro městské nezatížené lokality"/>
+</config>
+<config key="Variable_1">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="poznamka"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Navýšení celkové úmrtnosti bylo počítáno z měřených hodnot v ČR a z odhadu hodnot v městských nezatížených lokalitách. Hodnoty ročního průměru PM10 ≤ 13,3 µg.m-3 pro 75 % zastoupení frakce PM2,5) byly hodnoceny jako 0. Hodnoty celkové roční úmrtnosti jsou přebírány z podkladů ČSÚ a „očištěny“ -  byla odečtena úmrtí na úrazy a zemřelé osoby mladší 30 let. Navýšení proti roku 2017 způsobil meziroční nnárůst konc. PM10 o cca 1 až 2 µg/m3 ročního průměru%%00010Při přepočtu účinků PM10 byl použit, podle doporučení WHO, odhad střední hodnoty zastoupení frakce PM2,5 ve frakci PM10 pro ČR na úrovni 75 %. Přesnost odhadu je v řádu 102"/>
+</config>
+<config key="Variable_2">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="pozn"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="bez stanic extenzivně zatížených dopravou a průmyslem"/>
+</config>
+</config>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="expressions">
+<config key="element 0">
+<entry key="expression" type="xstring" value="nazev = regexReplace(variable(&quot;Row0&quot;), '\,\ [0-9]{4}\.[0-9]{4}$', &quot;&quot;)%%00010index = indexOf(nazev,&quot;:&quot;)%%00010strip(substr(nazev, index+1))"/>
+<entry key="outputName" type="xstring" value="ds_nazev"/>
+<entry key="outputType" type="xstring" value="STRING"/>
+<entry key="replaceVariable" type="xboolean" value="false"/>
+</config>
+<config key="element 1">
+<entry key="expression" type="xstring" value="variable(&quot;Row5&quot;)+&quot; &quot;+variable(&quot;Row6&quot;)+&quot;\n&quot;%%00010+variable(&quot;Row7&quot;)+&quot; &quot;+variable(&quot;Row8&quot;)"/>
+<entry key="outputName" type="xstring" value="poznamka"/>
+<entry key="outputType" type="xstring" value="STRING"/>
+<entry key="replaceVariable" type="xboolean" value="false"/>
+</config>
+<config key="element 2">
+<entry key="expression" type="xstring" value="strip(replace(variable(&quot;Row4&quot;), &quot;*&quot;, &quot;&quot;))"/>
+<entry key="outputName" type="xstring" value="pozn"/>
+<entry key="outputType" type="xstring" value="STRING"/>
+<entry key="replaceVariable" type="xboolean" value="false"/>
+</config>
+</config>
+<entry key="count" type="xint" value="3"/>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value="poznamka"/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="538"/>
+<entry key="y-coordinate" type="xint" value="194"/>
+<entry key="width" type="xint" value="134"/>
+<entry key="height" type="xint" value="19"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="11"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.expressions.base.node.variableexpression.VariableExpressionsNodeFactory"/>
+<entry key="node-name" type="xstring" value="Variable Expressions"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Expression Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.expressions.base"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="4.2.0.v202006150930"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Expressions"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.expressions.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="4.2.0.v202006150930"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Variable Expressions"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObjectSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObject"/>
+<entry key="port_object_summary" type="xstring" value="Variables connection"/>
+<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="2122d385-8022-44ac-b866-130932d21cf8"/>
+</config>
+</config>

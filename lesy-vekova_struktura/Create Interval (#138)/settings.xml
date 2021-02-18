@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="create.interval.settings_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_NODE_CREATE_INTERVAL"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<config key="create.interval.settings">
+<entry key="left.bound" type="xstring" value="vek1"/>
+<entry key="right.bound" type="xstring" value="vek2"/>
+<entry key="left.mode.column" type="xstring" isnull="true" value=""/>
+<entry key="right.mode.column" type="xstring" isnull="true" value=""/>
+<entry key="use.mode.columns" type="xboolean" value="false"/>
+<entry key="fixed.mode" type="xstring" value="INCL_BOTH"/>
+<entry key="create.new.column" type="xboolean" value="true"/>
+<entry key="out.column.name" type="xstring" value="vekova_kategorie"/>
+</config>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="IDLE"/>
+<entry key="factory" type="xstring" value="de.mpicbg.knime.hcs.base.nodes.manip.col.createinterval.CreateIntervalNodeFactory"/>
+<entry key="node-name" type="xstring" value="Create Interval"/>
+<entry key="node-bundle-name" type="xstring" value="HCS-Tools for KNIME"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="de.mpicbg.knime.hcs.base"/>
+<entry key="node-bundle-vendor" type="xstring" value="Max Planck Institute of Molecular Cell Biology and Genetics (MPI-CBG)"/>
+<entry key="node-bundle-version" type="xstring" value="4.0.0.v201906200802"/>
+<entry key="node-feature-name" type="xstring" value="KNIME HCS Tools"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="de.mpicbg.tds.knime.hcstools.feature.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="Max Planck Institute of Molecular Cell Biology and Genetics (MPI-CBG), Dresden, Germany"/>
+<entry key="node-feature-version" type="xstring" value="4.0.0.v201906200802"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Create Interval"/>
+<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+</config>
+</config>

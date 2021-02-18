@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack">
+<config key="Variable_0">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ds_nazev"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="O3V-AOT40 Přehled stanic s hodnotami AOT40 "/>
+</config>
+</config>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="sourceCode" type="xstring" value="import pandas as pd%%00010import re%%00010import shlex%%00010import unidecode%%00010%%00010text= input_table['Text']['Row0']%%00010%%00010popis = text.split('Poř.')[0]%%00010tabulka = text.split('Poř.')[1]%%00010%%00010flow_variables['ds_nazev'] = popis.split(&quot;/&quot;)[0]%%00010%%00010#data z popisu%%00010tb1 = { %%00010%%00009'rok' : [], %%00010%%00009'latka': [], %%00010%%00009'jednotka': [], %%00010%%00009'LV': [], %%00010%%00009'Počet stanic s překročením limitu': [], %%00010%%00009'Celkový počet stanic': [] }%%00010%%00009%%00010rok = [i.end() for i in re.finditer(&quot;Rok/Year:&quot;, popis)]%%00010tb1['rok'] = [popis[rok[0]: rok[0]+6].strip()]%%00010%%00010latka = [i.end() for i in re.finditer(&quot;Látka / Pollutant:&quot;, popis)]%%00010tb1['latka'] = [popis[latka[0]: latka[0]+6].strip()]%%00010%%00010jednotka = [i.end() for i in re.finditer(&quot;Jednotka / Unit:&quot;, popis)]%%00010tb1['jednotka'] = [popis[jednotka[0]: jednotka[0]+8].strip()]%%00010%%00010LV = [i.end() for i in re.finditer(&quot;LV:&quot;, popis)]%%00010tb1['LV'] = [popis[LV[0]: LV[0]+10].strip()]%%00010%%00010pocet_stanic = [i.end() for i in re.finditer(&quot;No of stations with exceedance of limit:&quot;, popis)]%%00010tb1['Počet stanic s překročením limitu'] = [popis[pocet_stanic[0]: pocet_stanic[0]+5].strip()]%%00010%%00010celk_stanic = [i.end() for i in re.finditer(&quot;of the total number of stations:&quot;, popis)]%%00010tb1['Celkový počet stanic'] = [popis[celk_stanic[0]: celk_stanic[0]+5].strip()]%%00010%%00010output_table_1 = pd.DataFrame(tb1)%%00010%%00010#tabulka s hodnotama%%00010tb2 = {%%00010%%00009'rok': [],%%00010%%00009'lokalita': [],%%00010%%00009'KMPL': [],%%00010%%00009'okres': [],%%00010%%00009'vlastnik': [],%%00010%%00009'MP': [],%%00010%%00009'metoda_mereni': [],%%00010%%00009'klasifikace': [],%%00010%%00009'roky': [],%%00010%%00009'aot40': [],%%00010%%00009'LV': [],%%00010%%00009'jednotka': []%%00010%%00009}%%00010%%00010tab = tabulka.split(&quot;\n&quot;)%%00010%%00010#vynechat posledni radek%%00010tab.pop()%%00010%%00010for i, line in enumerate(tab):%%00010%%00009#vynechat prvni dva radky - header%%00010%%00009if i &gt; 1:%%00010%%00009%%00009line = shlex.split(line)%%00010%%00009%%00009#najit spravne lokalitu (length je 10 pokud nejsou mezery v jednom sloupci)%%00010%%00009%%00009if len(line) &gt; 10:%%00010%%00009%%00009%%00009#najit prvni jenom uppercase = kmpl%%00010%%00009%%00009%%00009uppers = [el for el in line[1:-5] if el.isupper()]%%00010%%00009%%00009%%00009#print(uppers)%%00010%%00009%%00009%%00009uppers_index = [i for i, el in enumerate(line[1:-5]) if el.isupper()]%%00010%%00009%%00009%%00009if len(uppers) == 2:%%00010%%00009%%00009%%00009%%00009lokalita = &quot; &quot;.join(line[1:uppers_index[0]+1])%%00010%%00009%%00009%%00009%%00009kmpl = uppers[0]%%00010%%00009%%00009%%00009%%00009okres = &quot; &quot;.join(line[uppers_index[0]+2:uppers_index[1]+1])%%00010%%00009%%00009%%00009%%00009#print(okres)%%00010%%00009%%00009%%00009%%00009vlastnik = uppers[1]%%00010%%00009%%00009%%00009%%00009mp = line[uppers_index[1]+2]%%00010%%00009%%00009%%00009else:%%00010%%00009%%00009%%00009%%00009#predpokladam, ze stanice se moc nemeni%%00010%%00009%%00009%%00009%%00009if line[1] == 'Ostrava-Radvanice':%%00010%%00009%%00009%%00009%%00009%%00009lokalita = &quot; &quot;.join(line[1:3])%%00010%%00009%%00009%%00009%%00009%%00009kmpl = line[3]%%00010%%00009%%00009%%00009%%00009%%00009okres = line[4]%%00010%%00009%%00009%%00009%%00009%%00009vlastnik = &quot; &quot;.join(line[5:7])%%00010%%00009%%00009%%00009%%00009%%00009mp = line[7]%%00010%%00009%%00009%%00009%%00009if line[1] == 'Tobolka-Čertovy':%%00010%%00009%%00009%%00009%%00009%%00009lokalita = &quot; &quot;.join(line[1:3])%%00010%%00009%%00009%%00009%%00009%%00009kmpl = line[3]%%00010%%00009%%00009%%00009%%00009%%00009okres = line[4]%%00010%%00009%%00009%%00009%%00009%%00009vlastnik = line[5]%%00010%%00009%%00009%%00009%%00009%%00009mp = line[6]%%00010%%00009%%00009else:%%00010%%00009%%00009%%00009lokalita = line[1]%%00010%%00009%%00009%%00009kmpl = line[2]%%00010%%00009%%00009%%00009okres = line[3]%%00010%%00009%%00009%%00009vlastnik = line[4]%%00010%%00009%%00009%%00009mp = line[5]%%00010%%00009%%00009%%00009%%00009%%00010%%00009%%00009tb2['rok'].append(flow_variables['rok'])%%00009%%00010%%00009%%00009#print(line)%%00009%%00009%%00009%%00010%%00009%%00009tb2['lokalita'].append(lokalita)%%00010%%00009%%00009tb2['KMPL'].append(kmpl)%%00010%%00009%%00009tb2['okres'].append(okres)%%00010%%00009%%00009tb2['vlastnik'].append(vlastnik)%%00010%%00009%%00009tb2['MP'].append(mp)%%00010%%00009%%00009tb2['metoda_mereni'].append(line[-4])%%00010%%00009%%00009tb2['klasifikace'].append(line[-3])%%00010%%00009%%00009tb2['roky'].append(line[-2])%%00010%%00009%%00009tb2['aot40'].append(line[-1])%%00010%%00009%%00009tb2['LV'].append(popis[LV[0]: LV[0]+10].strip())%%00010%%00009%%00009tb2['jednotka'].append(popis[jednotka[0]: jednotka[0]+8].strip())%%00010%%00010output_table_2 = pd.DataFrame(tb2)"/>
+<entry key="rowLimit" type="xint" value="1000"/>
+<entry key="pythonVersionOption" type="xstring" value="python3"/>
+<entry key="python2Command" type="xstring" value=""/>
+<entry key="python3Command" type="xstring" value=""/>
+<entry key="chunkSize" type="xint" value="500000"/>
+<entry key="convertMissingToPython" type="xboolean" value="false"/>
+<entry key="convertMissingFromPython" type="xboolean" value="false"/>
+<entry key="sentinelOption" type="xstring" value="MIN_VAL"/>
+<entry key="sentinelValue" type="xint" value="0"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.python2.nodes.script1in2out.Python2Script1In2OutNodeFactory"/>
+<entry key="node-name" type="xstring" value="Python Script (1⇒2)"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Python nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.python2.nodes"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="4.2.0.v202006261130"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Python Integration"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.python2.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="4.2.0.v202007071503"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Python Script (1⇒2)"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 1, Cols: 6"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+<config key="port_2">
+<entry key="index" type="xint" value="2"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 38, Cols: 12"/>
+<entry key="port_dir_location" type="xstring" value="port_2"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="e0eef90f-57c4-46fa-935d-52166b3f88e1"/>
+</config>
+</config>

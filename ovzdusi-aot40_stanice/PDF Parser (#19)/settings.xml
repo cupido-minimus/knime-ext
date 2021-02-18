@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="Path_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="Path" type="xstring" value="/home/andrea/cenia_star/KNIME_AD/Data_od_poskytovatelu/CHMU"/>
+<config key="Rec_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="Rec" type="xboolean" value="false"/>
+<config key="Cat_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="Cat" type="xstring" value=""/>
+<config key="Source_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="Source" type="xstring" value=""/>
+<config key="Type_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="Type" type="xstring" value="UNKNOWN"/>
+<config key="IgnoreHiddenFiles_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="IgnoreHiddenFiles" type="xboolean" value="true"/>
+<config key="Charset_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="Charset" type="xstring" value="UTF-8"/>
+<config key="Filepath as title_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="Filepath as title" type="xboolean" value="false"/>
+<config key="WordTokenizer_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="WordTokenizer" type="xstring" value="OpenNLP SimpleTokenizer"/>
+</config>
+<config key="variables">
+<entry key="version" type="xstring" value="V_2019_09_13"/>
+<config key="tree">
+<config key="Path">
+<entry key="used_variable" type="xstring" value="pdf_dir"/>
+<entry key="exposed_variable" type="xstring" isnull="true" value=""/>
+</config>
+</config>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.ext.textprocessing.nodes.source.parser.pdf.PDFDocumentParserNodeFactory"/>
+<entry key="node-name" type="xstring" value="PDF Parser"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Textprocessing Plug-in"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.ext.textprocessing"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="4.2.0.v202006151600"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Textprocessing"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.ext.textprocessing.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="4.2.0.v202006151600"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="PDF Parser"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 1, Cols: 1"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" value="filestore"/>
+<entry key="file_store_id" type="xstring" value="afdd4972-d93a-43be-920d-6c487162eded"/>
+</config>
+</config>

@@ -1,0 +1,41 @@
+
+{
+    "type": "object",
+    "properties": {
+        "value-filter-137": {
+            "type": "object",
+            "properties": {
+                "column": {
+                    "type": "string",
+                    "default": "2"
+                },
+                "values": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "default": "I"
+                    }
+                }
+            },
+            "description": "Enter Description",
+            "example": {
+                "column": "2",
+                "values": [
+                    "I",
+                    "II",
+                    "III",
+                    "IV",
+                    "V",
+                    "VI",
+                    "VII",
+                    "VIII",
+                    "IX",
+                    "X",
+                    "XI",
+                    "XII",
+                    "rok"
+                ]
+            }
+        }
+    }
+}

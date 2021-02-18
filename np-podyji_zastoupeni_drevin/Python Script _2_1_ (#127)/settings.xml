@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="sourceCode" type="xstring" value="import pandas as pd%%00010import re%%00010%%00010tb = {%%00010%%00009'rok' : [],%%00010%%00009'kategorie': [],%%00010%%00009'typ_porostu': [],%%00010%%00009'drevina': [],%%00010%%00009'hodnota': [],%%00010%%00009'poznamka' :[]%%00010%%00009}%%00010%%00010dreviny = pd.Index([drevina.capitalize() for drevina in input_table_2['DŘEVINA']])%%00010#print(dreviny)%%00010kats = [&quot;cílové (přirozené) zastoupení&quot;, &quot;současné zastoupení&quot;]%%00010%%00010for i in range(1, input_table_1.shape[0]):%%00010%%00009for col, val in input_table_1.items():%%00009%%00010%%00009%%00009if col != 'Col0':%%00009%%00009%%00009%%00009%%00010%%00009%%00009%%00009# prirozene a cilove zastoupeni s rokem zpravy%%00010%%00009%%00009%%00009# pokud je v prvnim radku neco jine nez slovo prirozene nebo cilove, tak je to soucasne zastoupeni%%00010%%00009%%00009%%00009col_kat = str(input_table_1[col][0]).strip()%%00009%%00009%%00009%%00010%%00009%%00009%%00009is_year = re.search('[0-9]{4}', col_kat)%%00010%%00009%%00009%%00009if bool(is_year):%%00010%%00009%%00009%%00009%%00009rok = int(float(col_kat[is_year.span()[0]:is_year.span()[1]]))%%00010%%00009%%00009%%00009%%00009kategorie = kats[-1]%%00010%%00009%%00009%%00009elif col_kat[:-5] in kats[0]:%%00009#poslednich par pismen pryc kdyby selisilo jen trochu%%00010%%00009%%00009%%00009%%00009rok = flow_variables['rok']%%00010%%00009%%00009%%00009%%00009kategorie = kats[0]%%00010%%00009%%00009%%00009else:%%00010%%00009%%00009%%00009%%00009raise Exception(&quot;NECEKANA KATEGORIE {k}&quot;.format(k=col_kat))%%00010%%00009%%00009%%00009%%00009%%00009%%00009%%00010%%00009%%00009%%00009drevina = input_table_1['Col0'][i].strip().capitalize()%%00010%%00009%%00009%%00009#hleda presny vyraz v ciselniku%%00010%%00009%%00009%%00009if drevina in dreviny:%%00010%%00009%%00009%%00009%%00009d_index = dreviny.get_loc(drevina)%%00010%%00009%%00009%%00009%%00009drevina = input_table_2['DŘEVINA'][d_index]%%00010%%00009%%00009%%00009%%00009porost = input_table_2['TYP POROSTU'][d_index]%%00010%%00009%%00009%%00009else:%%00010%%00009%%00009%%00009%%00009raise Exception(&quot;DREVINA {d} NENALEZENA&quot;.format(d=drevina))%%00010%%00010%%00009%%00009%%00009tb['rok'].append(rok)%%00010%%00009%%00009%%00009tb['kategorie'].append(kategorie.capitalize())%%00010%%00009%%00009%%00009tb['typ_porostu'].append(porost)%%00010%%00009%%00009%%00009tb['drevina'].append(drevina)%%00010%%00009%%00009%%00009hodnota = None if input_table_1[col][i] in [None, 'x', '-', '+'] else input_table_1[col][i].strip('*')%%00010%%00009%%00009%%00009tb['hodnota'].append(hodnota)%%00010%%00009%%00009%%00009poznamka = flow_variables['pozn'] if '*' in input_table_1[col][i] else None%%00010%%00009%%00009%%00009tb['poznamka'].append(poznamka)%%00010%%00009%%00009%%00009%%00010output_table = pd.DataFrame(tb)"/>
+<entry key="rowLimit" type="xint" value="1000"/>
+<entry key="pythonVersionOption" type="xstring" value="python3"/>
+<entry key="python2Command" type="xstring" value=""/>
+<entry key="python3Command" type="xstring" value=""/>
+<entry key="chunkSize" type="xint" value="500000"/>
+<entry key="convertMissingToPython" type="xboolean" value="false"/>
+<entry key="convertMissingFromPython" type="xboolean" value="false"/>
+<entry key="sentinelOption" type="xstring" value="MIN_VAL"/>
+<entry key="sentinelValue" type="xint" value="0"/>
+</config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value="kategorie%%00010absolutne"/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="609"/>
+<entry key="y-coordinate" type="xint" value="347"/>
+<entry key="width" type="xint" value="134"/>
+<entry key="height" type="xint" value="38"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="11"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.python2.nodes.script2in1out.Python2Script2In1OutNodeFactory"/>
+<entry key="node-name" type="xstring" value="Python Script (2⇒1)"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Python nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.python2.nodes"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="4.2.0.v202006261130"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Python Integration"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.python2.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="4.2.0.v202007071503"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Python Script (2⇒1)"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 76, Cols: 6"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="cbfd4df0-e36f-4ac3-92e7-2ed320a68c04"/>
+</config>
+</config>

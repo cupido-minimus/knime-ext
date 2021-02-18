@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="spec.xml">
+<entry key="spec_name" type="xstring" value="default"/>
+<entry key="number_columns" type="xint" value="4"/>
+<config key="column_spec_0">
+<entry key="column_name" type="xstring" value="Document"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.ext.textprocessing.data.filestore.DocumentBufferedFileStoreCell"/>
+</config>
+<config key="column_domain"/>
+<config key="column_properties">
+<entry key="Word Tokenizer" type="xstring" value="OpenNLP SimpleTokenizer"/>
+</config>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_1">
+<entry key="column_name" type="xstring" value="Title"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain">
+<config key="possible_values">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="Přehled stanic s hodnotami AOT40 / Stations with maximum AOT40 values"/>
+</config>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_2">
+<entry key="column_name" type="xstring" value="Text"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain">
+<config key="possible_values">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="O3V-AOT40 Přehled stanic s hodnotami AOT40 / Stations with maximum AOT40 values%%00010Ochrana ekosystémů a vegetace / Protection of ecosystems and vegetation%%00010Rok/Year: 2018            Látka / Pollutant: O3           Jednotka / Unit: ug/m^3           LV: 18000.0           TE: 0%%00010Počet stanic, kde došlo k překročení limitu / No of stations with exceedance of limit: 23 %%00010z celkového počtu stanic / of the total number of stations: 38    to je procent / in percent: 60.5 %%00010Poř. Lokalita KMPL Okres Vlastník MP Metoda měření Klasifikace Roky AOT40%%00010No. Locality District Owner Meas. method Classification Years%%000101 Kuchařovice BKUCA Znojmo ČHMÚ AMS UVABS B/R/A-NCI 4 22900.2%%000102 Rudolice v Horách URVHA Most ČHMÚ AMS UVABS B/R/N-REG 5 21152.8%%000103 Brno-Tuřany BBNYA Brno-město ČHMÚ AMS UVABS B/S/R 5 21084.0%%000104 Červená hora TCERA Opava ČHMÚ AMS UVABS B/R/N-REG 5 20928.9%%000105 Sněžník USNZA Děčín ČHMÚ AMS UVABS B/R/N-REG 5 20928.7%%000106 Ostrava-Radvanice OZO TOROK Ostrava-město ZÚ, SMOva komb. UVABS B/S/R 5 20708.8%%000107 Štítná n.Vláří ZSNVA Zlín ČHMÚ AMS UVABS B/R/N-REG 5 20414.8%%000108 Mikulov-Sedlec BMISA Břeclav ČHMÚ AMS UVABS B/R/A-REG 5 20394.2%%000109 Košetice JKOSA Pelhřimov ČHMÚ AMS UVABS B/R/AN-REG 5 20152.5%%0001010 Praha 4-Libuš ALIBA Praha 4 ČHMÚ AMS UVABS B/S/R 5 20001.4%%0001011 Praha 6-Suchdol ASUCA Praha 6 ČHMÚ AMS UVABS B/S/R 5 19933.6%%0001012 Kocelovice CKOCA Strakonice ČHMÚ AMS UVABS B/R/N-REG 5 19778.9%%0001013 Churáňov CCHUA Prachatice ČHMÚ AMS UVABS B/R/N-REG 5 19434.2%%0001014 Krkonoše-Rýchory HKRYA Trutnov ČHMÚ AMS UVABS B/R/N-REG 4 19161.6%%0001015 Souš LSOUA Jablonec nad Nisou ČHMÚ AMS UVABS B/R/N-REG 5 19083.8%%0001016 Polom HPLOA Rychnov nad Kněžnou ČHMÚ AMS UVABS B/R/N-REG 5 19024.6%%0001017 Svratouch ESVRA Chrudim ČHMÚ AMS UVABS B/R/AN-REG 5 18957.0%%0001018 Těšnovice ZTNVA Kroměříž ČHMÚ AMS UVABS B/R/A-REG 3 18875.1%%0001019 Hradec Králové-observatoř HHKOK Hradec Králové ČHMÚ komb. UVABS B/S/R 5 18784.2%%0001020 Přebuz KPRBA Sokolov ČHMÚ AMS UVABS B/R/AN-REG 5 18776.2%%0001021 Doksany UDOKA Litoměřice ČHMÚ AMS UVABS B/R/NA-NCI 3 18629.6%%0001022 Frýdlant LFRTA Liberec ČHMÚ AMS UVABS B/R/N-REG 3 18548.8%%0001023 Ústí n.L.-Kočkov UULKA Ústí nad Labem ČHMÚ AMS UVABS B/S/RN 5 18411.4%%0001024 Tobolka-Čertovy schody STCSA Beroun VČs AMS UVABS B/R/AN-NCI 4 17434.3%%0001025 Kostelní Myslová JKMYA Jihlava ČHMÚ AMS UVABS B/R/A-NCI 5 17387.8%%0001026 Zlín ZZLNA Zlín ČHMÚ AMS UVABS B/S/RN 5 17299.0%%0001027 Ondřejov SONRA Praha-východ ČHMÚ AMS UVABS B/R/N-REG 5 17272.8%%0001028 Přimda PPRMA Tachov ČHMÚ AMS UVABS B/R/N-REG 5 17192.7%%0001029 Tušimice UTUSA Chomutov ČHMÚ AMS UVABS B/R/IA-NCI 5 17120.3%%0001030 Prachatice CPRAA Prachatice ČHMÚ AMS UVABS B/S/R 5 15893.8%%0001031 Sokolov KSOMA Sokolov ČHMÚ AMS UVABS B/S/R 5 15359.4%%0001032 Hojná Voda CHVOA České Budějovice ČHMÚ AMS UVABS B/R/N-REG 5 14879.5%%0001033 Studénka TSTDA Nový Jičín ČHMÚ AMS UVABS B/R/A-NCI 5 14257.3%%0001034 Praha 8-Kobylisy AKOBA Praha 8 ČHMÚ AMS UVABS B/S/R 4 14117.9%%0001035 Lom ULOMA Most ČHMÚ AMS UVABS B/R/IN-NCI 5 13653.9%%0001036 Jeseník-lázně MJESA Jeseník ČHMÚ AMS UVABS B/R/N-NCI 5 13385.0%%0001037 Bílý Kříž TBKRA Frýdek-Místek ČHMÚ AMS UVABS B/R/N-REG 5 13038.2%%0001038 Plzeň-Doubravka PPLVA Plzeň-město ČHMÚ AMS UVABS B/S/A 5 12377.1%%00010Přehled stanic s hodnotami AOT40 / Stations with maximum AOT40 values"/>
+</config>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_3">
+<entry key="column_name" type="xstring" value="File path"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain">
+<config key="possible_values">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="/home/andrea/cenia_star/KNIME_STAR/ovzdusi-aot40_stanice/MaximaAOT40_2018_v0.pdf"/>
+</config>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+</config>

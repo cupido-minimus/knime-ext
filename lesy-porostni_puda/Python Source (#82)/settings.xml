@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack">
+<config key="Variable_0">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="metadata_excel_url"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="knime://knime.workflow/../../../CKAN_upload/dataset_lesy.xlsx"/>
+</config>
+</config>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="sourceCode" type="xstring" value="import pandas as pd%%00010%%00010flow_variables.update({%%00010%%00009'metadata_excel_url' : 'knime://knime.workflow/../../../CKAN_upload/dataset_lesy.xlsx'%%00010%%00009})%%00010%%00010col_names = {%%00010%%00009'organization_url' : 'URL_ORGANIZACE',%%00010%%00009'package_name' : 'NAZEV_DATASETU',%%00010%%00009'package_url' : 'URL_DATASETU',%%00010%%00009'package_description' : 'POPIS_DATASETU',%%00010%%00009'resource_name' : 'NAZEV_SOUBORU',%%00010%%00009'package_relation' : 'ODKAZ_URL_DATASETU',%%00010%%00009'tags' : 'TAG',%%00010%%00009'group_url' : 'URL_SKUPINY'%%00010%%00009}%%00010%%00010col_values = {%%00010%%00009'organization_url' : flow_variables['url_organizace'],%%00010%%00009'package_name' : 'Porostní půda lesů',%%00010%%00009'package_url' : 'lesy-porostni-puda',%%00010%%00009'package_description' : '',%%00010%%00009'resource_name' : flow_variables['csv_filename'],%%00010%%00009'package_relation' : '',%%00010%%00009'tags' : 'lesy, porosty, plocha lesů',%%00010%%00009'group_url' : 'lesy'%%00010%%00009}%%00010%%00010xl = {}%%00010%%00010for key, col in col_names.items():%%00010%%00009xl[col] = col_values[key]%%00010%%00010output_table = pd.DataFrame(xl, index=[0])"/>
+<entry key="rowLimit" type="xint" value="1000"/>
+<entry key="pythonVersionOption" type="xstring" value="python3"/>
+<entry key="python2Command" type="xstring" value=""/>
+<entry key="python3Command" type="xstring" value=""/>
+<entry key="chunkSize" type="xint" value="500000"/>
+<entry key="convertMissingToPython" type="xboolean" value="false"/>
+<entry key="convertMissingFromPython" type="xboolean" value="false"/>
+<entry key="sentinelOption" type="xstring" value="MIN_VAL"/>
+<entry key="sentinelValue" type="xint" value="0"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.python2.nodes.source.Python2SourceNodeFactory"/>
+<entry key="node-name" type="xstring" value="Python Source"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Python nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.python2.nodes"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="4.0.0.v201906190741"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Python Integration"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.python2.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="4.0.0.v201906241606"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Python Source"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 1, Cols: 8"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="5c434d0d-324c-48d2-b71b-7a0eea17e37a"/>
+</config>
+</config>

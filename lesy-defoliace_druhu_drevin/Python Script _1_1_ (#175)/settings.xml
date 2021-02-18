@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="sourceCode" type="xstring" value="import pandas as pd%%00010%%00010tb = {%%00010%%00009'rok' : [],%%00010%%00009'typ_porostu' : [],%%00010%%00009'drevina': [],%%00010%%00009'vekova_kategorie': [],%%00010%%00009'trida_defoliace': [],%%00010%%00009'hodnota': [],%%00010%%00009'jednotka' : [],%%00010%%00009'zdroj': []%%00010%%00009}%%00010%%00010for i in range(1, input_table['Col3'].size):%%00010%%00009for col, val in input_table.items():%%00010%%00009%%00009if 'Col' in col:%%00010%%00009%%00009%%00009tb['rok'].append(flow_variables['rok'])%%00010%%00009%%00009%%00009tb['typ_porostu'].append(input_table['typ_porostu'][i].replace(&quot;\xa0&quot;,&quot;&quot;).strip())%%00010%%00009%%00009%%00009tb['drevina'].append(input_table['drevina'][i].replace(&quot;\xa0&quot;,&quot;&quot;).strip())%%00010%%00009%%00009%%00009tb['vekova_kategorie'].append(input_table['vekova_kategorie'][i].replace(&quot;\xa0&quot;,&quot;&quot;).strip())%%00010%%00009%%00009%%00009tb['trida_defoliace'].append(input_table[col][0].replace(&quot;\xa0&quot;,&quot;&quot;).strip())%%00010%%00009%%00009%%00009tb['jednotka'].append(&quot;%&quot;)%%00010%%00009%%00009%%00009hodnota = None if input_table[col][i] is None else float(input_table[col][i].replace(&quot;\xa0&quot;,&quot;&quot;).strip())%%00010%%00009%%00009%%00009tb['hodnota'].append(hodnota)%%00010%%00009%%00009%%00009tb['zdroj'].append(flow_variables['zdroj'])%%00010%%00010output_table = pd.DataFrame(tb)%%00010%%00010%%00009%%00009%%00010%%00010%%00010%%00010%%00009%%00009"/>
+<entry key="rowLimit" type="xint" value="1000"/>
+<entry key="pythonVersionOption" type="xstring" value="python3"/>
+<entry key="python2Command" type="xstring" value=""/>
+<entry key="python3Command" type="xstring" value=""/>
+<entry key="chunkSize" type="xint" value="500000"/>
+<entry key="convertMissingToPython" type="xboolean" value="false"/>
+<entry key="convertMissingFromPython" type="xboolean" value="false"/>
+<entry key="sentinelOption" type="xstring" value="MIN_VAL"/>
+<entry key="sentinelValue" type="xint" value="0"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.python2.nodes.script.Python2ScriptNodeFactory"/>
+<entry key="node-name" type="xstring" value="Python Script (1⇒1)"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Python nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.python2.nodes"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="4.1.3.v202005112253"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Python Integration"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.python2.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="4.1.3.v202005112253"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Python Script (1⇒1)"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 60, Cols: 8"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="275eb7ef-39f5-4e33-80d1-1a4dfb5b23df"/>
+</config>
+</config>

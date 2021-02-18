@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack">
+<config key="Variable_0">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="RowID"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Row4"/>
+</config>
+<config key="Variable_1">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col77"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Elektřina"/>
+</config>
+<config key="Variable_2">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col76"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Vyrobené teplo"/>
+</config>
+<config key="Variable_3">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col75"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Jaderné teplo"/>
+</config>
+<config key="Variable_4">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col74"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Komunální odpady (neobnovitelné)"/>
+</config>
+<config key="Variable_5">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col73"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Průmyslové odpady"/>
+</config>
+<config key="Variable_6">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col72"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Odpady (neobnovitelné)"/>
+</config>
+<config key="Variable_7">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col71"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Energie prostředí (tepelná čerpadla)"/>
+</config>
+<config key="Variable_8">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col70"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Ostatní kapalná biopaliva"/>
+</config>
+<config key="Variable_9">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col69"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Letecký petrolej včetně biosložek"/>
+</config>
+<config key="Variable_10">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col68"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Čistý letecký biopetrolej"/>
+</config>
+<config key="Variable_11">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col67"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Motorová nafta včetně biosložek"/>
+</config>
+<config key="Variable_12">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col66"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Methylestery mastných kyselin (FAME)"/>
+</config>
+<config key="Variable_13">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col65"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Motorový benzín včetně biosložek"/>
+</config>
+<config key="Variable_14">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col64"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Bioethanol"/>
+</config>
+<config key="Variable_15">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col63"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Komunální odpady (obnovitelné)"/>
+</config>
+<config key="Variable_16">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col62"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Bioplyn"/>
+</config>
+<config key="Variable_17">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col61"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Dřevěné uhlí "/>
+</config>
+<config key="Variable_18">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col60"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Pevná biomasa"/>
+</config>
+<config key="Variable_19">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col59"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Geotermální energie"/>
+</config>
+<config key="Variable_20">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col58"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Solární termální energie"/>
+</config>
+<config key="Variable_21">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col57"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Solární fotovoltaická energie"/>
+</config>
+<config key="Variable_22">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col56"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Větrná energie"/>
+</config>
+<config key="Variable_23">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col55"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Přílivová, vlnová, oceánská energie"/>
+</config>
+<config key="Variable_24">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col54"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Vodní energie"/>
+</config>
+<config key="Variable_25">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col53"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Obnovitelné zdroje a biopaliva"/>
+</config>
+<config key="Variable_26">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col52"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Zemní plyn"/>
+</config>
+<config key="Variable_27">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col51"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Ostatní produkty"/>
+</config>
+<config key="Variable_28">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col50"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Parafíny a vosky"/>
+</config>
+<config key="Variable_29">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col49"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Petrolejový koks"/>
+</config>
+<config key="Variable_30">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col48"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Bitumeny"/>
+</config>
+<config key="Variable_31">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col47"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Mazadla"/>
+</config>
+<config key="Variable_32">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col46"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Lakový a technický benzín"/>
+</config>
+<config key="Variable_33">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col45"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Topný olej"/>
+</config>
+<config key="Variable_34">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col44"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Motorová nafta/plynový olej (bez biosložek)"/>
+</config>
+<config key="Variable_35">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col43"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Primární benzín"/>
+</config>
+<config key="Variable_36">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col42"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Ostatní petrolej"/>
+</config>
+<config key="Variable_37">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col41"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Letecký petrolej (bez biosložek)"/>
+</config>
+<config key="Variable_38">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col40"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Tryskové palivo petrolejového typu "/>
+</config>
+<config key="Variable_39">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col39"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Letecký benzín"/>
+</config>
+<config key="Variable_40">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col38"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Motorový benzín bez biosložek"/>
+</config>
+<config key="Variable_41">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col37"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Zkapalněný ropný plyn (LPG)"/>
+</config>
+<config key="Variable_42">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col36"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Etan"/>
+</config>
+<config key="Variable_43">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col35"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Rafinérský plyn "/>
+</config>
+<config key="Variable_44">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col34"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Ostatní uhlovodíky"/>
+</config>
+<config key="Variable_45">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col33"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Aditiva a oxygenáty (bez biopaliv)"/>
+</config>
+<config key="Variable_46">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col32"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Rafinérské poloprodukty"/>
+</config>
+<config key="Variable_47">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col31"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Kapalný zemní plyn (NGL)"/>
+</config>
+<config key="Variable_48">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col30"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Surová ropa "/>
+</config>
+<config key="Variable_49">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col29"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Ropa a ropné produkty"/>
+</config>
+<config key="Variable_50">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col28"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Ropné břidlice a písky"/>
+</config>
+<config key="Variable_51">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col27"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Rašelinové výrobky"/>
+</config>
+<config key="Variable_52">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col26"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Rašelina"/>
+</config>
+<config key="Variable_53">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col25"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Rašelina a rašelinové výrobky"/>
+</config>
+<config key="Variable_54">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col24"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Ostatní plyny (konvertorový, aj.)"/>
+</config>
+<config key="Variable_55">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col23"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Vysokopecní plyn "/>
+</config>
+<config key="Variable_56">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col22"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Koksárenský plyn "/>
+</config>
+<config key="Variable_57">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col21"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Energoplyn "/>
+</config>
+<config key="Variable_58">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col20"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Vyrobené plyny"/>
+</config>
+<config key="Variable_59">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col19"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Brikety hnědouhelné"/>
+</config>
+<config key="Variable_60">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col18"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Dehet černouhelný "/>
+</config>
+<config key="Variable_61">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col17"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Plynový koks"/>
+</config>
+<config key="Variable_62">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col16"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Koks černouhelný metalurgický "/>
+</config>
+<config key="Variable_63">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col15"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Černouhelné bulety"/>
+</config>
+<config key="Variable_64">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col14"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Hnědé uhlí / lignit"/>
+</config>
+<config key="Variable_65">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col13"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Sub-bitumenové uhlí "/>
+</config>
+<config key="Variable_66">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col12"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Černé uhlí energetické"/>
+</config>
+<config key="Variable_67">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col11"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Černé uhlí koksovatelné "/>
+</config>
+<config key="Variable_68">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col10"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Antracit"/>
+</config>
+<config key="Variable_69">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col9"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Pevná fosilní paliva"/>
+</config>
+<config key="Variable_70">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col8"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Celkem"/>
+</config>
+<config key="Variable_71">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col5"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="2010"/>
+</config>
+<config key="Variable_72">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="Col3"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="TJ"/>
+</config>
+</config>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="CFG_FAILONMISS_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="CFG_FAILONMISS" type="xstring" value="Omit"/>
+<config key="CFG_Integer_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+<entry key="EnabledStatus" type="xboolean" value="false"/>
+</config>
+<entry key="CFG_Integer" type="xint" value="0"/>
+<config key="CFG_Long_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMN_long"/>
+<entry key="EnabledStatus" type="xboolean" value="false"/>
+</config>
+<entry key="CFG_Long" type="xlong" value="0"/>
+<config key="CFG_Double_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_double"/>
+<entry key="EnabledStatus" type="xboolean" value="false"/>
+</config>
+<entry key="CFG_Double" type="xdouble" value="0.0"/>
+<config key="CFG_String_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="false"/>
+</config>
+<entry key="CFG_String" type="xstring" value="missing"/>
+<config key="CFG_Boolean_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="false"/>
+</config>
+<entry key="CFG_Boolean" type="xstring" value="false"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="IDLE"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.flowvariable.tablerowtovariable2.TableToVariable2NodeFactory"/>
+<entry key="node-name" type="xstring" value="Table Row to Variable"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="4.1.3.v202005112252"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="4.1.3.v202005121100"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Table Row to Variable"/>
+<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+</config>
+</config>

@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack">
+<config key="Variable_0">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="1"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Opraveno dle nového normálového období 1981-2010, roční hodnoty opraveny dle nového přepočtu (v souladu s hodnotami zvěřejněmými na portále ČHMÚ)"/>
+</config>
+<config key="Variable_1">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="2"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Průměrné roční teploty na území ČR a odchylky od dlouhodobého normálu, 1961–2018"/>
+</config>
+<config key="Variable_2">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="3"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Rok"/>
+</config>
+<config key="Variable_3">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="5"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="1961"/>
+</config>
+<config key="Variable_4">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="6"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="1962"/>
+</config>
+<config key="Variable_5">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="7"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="1963"/>
+</config>
+<config key="Variable_6">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="8"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="1964"/>
+</config>
+<config key="Variable_7">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="9"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="1965"/>
+</config>
+<config key="Variable_8">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="10"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="1966"/>
+</config>
+<config key="Variable_9">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="11"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="1967"/>
+</config>
+<config key="Variable_10">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="12"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="1968"/>
+</config>
+<config key="Variable_11">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="13"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="1969"/>
+</config>
+<config key="Variable_12">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="14"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="1970"/>
+</config>
+<config key="Variable_13">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="15"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="1971"/>
+</config>
+<config key="Variable_14">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="16"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="1972"/>
+</config>
+<config key="Variable_15">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="17"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="1973"/>
+</config>
+<config key="Variable_16">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="18"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="1974"/>
+</config>
+<config key="Variable_17">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="19"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="1975"/>
+</config>
+<config key="Variable_18">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="20"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="1976"/>
+</config>
+<config key="Variable_19">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="21"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="1977"/>
+</config>
+<config key="Variable_20">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="22"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="1978"/>
+</config>
+<config key="Variable_21">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="23"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="1979"/>
+</config>
+<config key="Variable_22">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="24"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="1980"/>
+</config>
+<config key="Variable_23">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="25"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="1981"/>
+</config>
+<config key="Variable_24">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="26"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="1982"/>
+</config>
+<config key="Variable_25">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="27"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="1983"/>
+</config>
+<config key="Variable_26">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="28"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="1984"/>
+</config>
+<config key="Variable_27">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="29"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="1985"/>
+</config>
+<config key="Variable_28">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="30"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="1986"/>
+</config>
+<config key="Variable_29">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="31"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="1987"/>
+</config>
+<config key="Variable_30">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="32"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="1988"/>
+</config>
+<config key="Variable_31">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="33"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="1989"/>
+</config>
+<config key="Variable_32">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="34"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="1990"/>
+</config>
+<config key="Variable_33">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="35"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="1991"/>
+</config>
+<config key="Variable_34">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="36"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="1992"/>
+</config>
+<config key="Variable_35">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="37"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="1993"/>
+</config>
+<config key="Variable_36">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="38"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="1994"/>
+</config>
+<config key="Variable_37">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="39"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="1995"/>
+</config>
+<config key="Variable_38">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="40"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="1996"/>
+</config>
+<config key="Variable_39">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="41"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="1997"/>
+</config>
+<config key="Variable_40">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="42"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="1998"/>
+</config>
+<config key="Variable_41">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="43"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="1999"/>
+</config>
+<config key="Variable_42">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="44"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="2000"/>
+</config>
+<config key="Variable_43">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="45"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="2001"/>
+</config>
+<config key="Variable_44">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="46"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="2002"/>
+</config>
+<config key="Variable_45">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="47"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="2003"/>
+</config>
+<config key="Variable_46">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="48"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="2004"/>
+</config>
+<config key="Variable_47">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="49"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="2005"/>
+</config>
+<config key="Variable_48">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="50"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="2006"/>
+</config>
+<config key="Variable_49">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="51"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="2007"/>
+</config>
+<config key="Variable_50">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="52"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="2008"/>
+</config>
+<config key="Variable_51">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="53"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="2009"/>
+</config>
+<config key="Variable_52">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="54"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="2010"/>
+</config>
+<config key="Variable_53">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="55"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="2011"/>
+</config>
+<config key="Variable_54">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="56"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="2012"/>
+</config>
+<config key="Variable_55">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="57"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="2013"/>
+</config>
+<config key="Variable_56">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="58"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="2014"/>
+</config>
+<config key="Variable_57">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="59"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="2015"/>
+</config>
+<config key="Variable_58">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="60"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="2016"/>
+</config>
+<config key="Variable_59">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="61"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="2017"/>
+</config>
+<config key="Variable_60">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="62"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="2018"/>
+</config>
+<config key="Variable_61">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="63"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value=" Zdroj: ČHMÚ"/>
+</config>
+</config>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="column_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<config key="column">
+<entry key="useRowID" type="xboolean" value="false"/>
+<entry key="columnName" type="xstring" value="Col1"/>
+</config>
+<config key="ignore missing_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="ignore missing" type="xboolean" value="true"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.flowvariable.tablecoltovariable2.TableColumnToVariable2NodeFactory"/>
+<entry key="node-name" type="xstring" value="Table Column to Variable"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="4.1.3.v202005112252"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="4.1.3.v202005121100"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Table Column to Variable"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObjectSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObject"/>
+<entry key="port_object_summary" type="xstring" value="Variables connection"/>
+<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="8674c640-0369-4683-a0b4-2669f1f168b8"/>
+</config>
+</config>

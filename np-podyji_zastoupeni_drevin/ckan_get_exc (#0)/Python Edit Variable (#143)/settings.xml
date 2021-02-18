@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack">
+<config key="Variable_0">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="zdroj"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="NPPODYJI"/>
+</config>
+<config key="Variable_1">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="excel_url"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="http://star.env.cz/dataset/39c6ec4b-8b84-46c8-a042-edc37d02de2c/resource/74a3f197-c168-4f6d-bf2c-e9eda7463df2/download/data_nppodyji_devinna_skladba_2018.xlsx"/>
+</config>
+</config>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="sourceCode" type="xstring" value="import pandas as pd%%00010import requests, io%%00010%%00010tb = {'response' : [], 'resources' : [], 'url' : []}%%00010%%00010res = requests.get(flow_variables['url_ckan'])%%00010%%00010# vybere resource dle roku%%00010for resource in res.json()['result']['resources']:%%00010%%00009if str(flow_variables['rok']) in resource['name']:%%00010%%00009%%00009resource_url = resource['url']%%00010%%00009else:%%00010%%00009%%00009raise Exception(&quot;Resource pro rok {0} NEEXISTUJE&quot;.format(low_variables['rok']))%%00010%%00010flow_variables['zdroj'] = res.json()['result']['organization']['title']%%00010if flow_variables['zdroj'] == &quot;Ministerstvo životního prostředí&quot;:%%00010%%00009flow_variables['zdroj'] = &quot;MŽP&quot;%%00010%%00010flow_variables['excel_url'] = resource_url%%00010#data = requests.request('GET', resource_url, stream=True)%%00010#f = io.BytesIO(data.content)%%00010%%00010#excel = pd.read_excel(f, sheet_name=flow_variables['sheet'], dtype = 'str', header=None)%%00010%%00010#excel.index = ['Row'+str(r) for r in excel.index] %%00010#output_table = excel.add_prefix('Col').dropna(axis=0, how='all').dropna(axis=1, how='all')"/>
+<entry key="rowLimit" type="xint" value="1000"/>
+<entry key="pythonVersionOption" type="xstring" value="python3"/>
+<entry key="python2Command" type="xstring" value=""/>
+<entry key="python3Command" type="xstring" value=""/>
+<entry key="chunkSize" type="xint" value="500000"/>
+<entry key="convertMissingToPython" type="xboolean" value="false"/>
+<entry key="convertMissingFromPython" type="xboolean" value="false"/>
+<entry key="sentinelOption" type="xstring" value="MIN_VAL"/>
+<entry key="sentinelValue" type="xint" value="0"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.python2.nodes.variables.Python2VariablesNodeFactory"/>
+<entry key="node-name" type="xstring" value="Python Edit Variable"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Python nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.python2.nodes"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="4.2.0.v202006261130"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Python Integration"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.python2.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="4.2.0.v202007071503"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Python Edit Variable"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObjectSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObject"/>
+<entry key="port_object_summary" type="xstring" value="Variables connection"/>
+<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="10a50bf4-4fb4-4357-b4d4-ed24d1901743"/>
+</config>
+</config>
