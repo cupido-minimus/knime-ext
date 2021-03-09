@@ -1,0 +1,3 @@
+[nazev]=Zdroje financování výdajů Správy NP České Švýcarsko [mil. Kč], 2010–2018
+[indikator]=p4
+[knime]=Popis

@@ -1,0 +1,3 @@
+[nazev]=Prodej dříví Správou NP Podyjí – tržby z prodeje dřeva, průměrná cena a náklady [mil. Kč, Kč.m‑3], 2010–2018
+[indikator]=p3
+[knime]=Popis

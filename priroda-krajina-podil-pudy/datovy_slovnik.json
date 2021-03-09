@@ -1,0 +1,35 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw#",
+        {
+            "@language": "cs"
+        }
+    ],
+    "url": "http://star.env.cz/dataset/cenia-priroda-krajina-podil-pudy-2018",
+    "dc:publisher": "EUROSTAT",
+    "dc:title": "Podíl zemědělské půdy, orné půdy a trvalých travních porostů u vybraných států EU [%], 2016",
+    "tableSchema": {
+        "columns": [
+            {
+                "name": "Hodnota",
+                "datatype": "number"
+            },
+            {
+                "name": "Jednotka",
+                "datatype": "string"
+            },
+            {
+                "name": "Rok",
+                "datatype": "string"
+            },
+            {
+                "name": "Stát",
+                "datatype": "string"
+            },
+            {
+                "name": "Kategorie",
+                "datatype": "string"
+            }
+        ]
+    }
+}

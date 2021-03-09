@@ -1,0 +1,3 @@
+[nazev]=Návštěvnost infostředisek a muzeí Správy KRNAP a celková návštěvnost parku [tis. návštěvníků], 2010–2018
+[indikator]=p1
+[knime]=Popis

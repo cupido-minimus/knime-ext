@@ -1,0 +1,31 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw#",
+        {
+            "@language": "cs"
+        }
+    ],
+    "url": "http://star.env.cz/dataset/cenia-priroda-krajina-ptaci-2018",
+    "dc:publisher": "Ostatní",
+    "dc:title": "Vývoj indikátoru běžných druhů ptáků, lesních druhů ptáků a ptáků zemědělské krajiny v Evropě [index, 1990 = 100], 1990–2016",
+    "tableSchema": {
+        "columns": [
+            {
+                "name": "Hodnota",
+                "datatype": "number"
+            },
+            {
+                "name": "Jednotka",
+                "datatype": "string"
+            },
+            {
+                "name": "Rok",
+                "datatype": "string"
+            },
+            {
+                "name": "Kategorie",
+                "datatype": "string"
+            }
+        ]
+    }
+}

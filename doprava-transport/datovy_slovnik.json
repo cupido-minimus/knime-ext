@@ -1,0 +1,31 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw#",
+        {
+            "@language": "cs"
+        }
+    ],
+    "url": "http://star.env.cz/dataset/cenia-doprava-transport-2018",
+    "dc:publisher": "Ministerstvo prumyslu a obchodu",
+    "dc:title": "Transport",
+    "tableSchema": {
+        "columns": [
+            {
+                "name": "Kategorie",
+                "datatype": "number"
+            },
+            {
+                "name": "Hodnota",
+                "datatype": "string"
+            },
+            {
+                "name": "Jednotka",
+                "datatype": "string"
+            },
+            {
+                "name": "Rok",
+                "datatype": "string"
+            }
+        ]
+    }
+}

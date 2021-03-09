@@ -1,0 +1,35 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw#",
+        {
+            "@language": "cs"
+        }
+    ],
+    "url": "http://star.env.cz/dataset/cenia-puda-glob-ochrana-rostlin-latky-2018",
+    "dc:publisher": "EUROSTAT",
+    "dc:title": "Sales of pesticides by type of pesticide - 2017",
+    "tableSchema": {
+        "columns": [
+            {
+                "name": "Hodnota",
+                "datatype": "number"
+            },
+            {
+                "name": "Jednotka",
+                "datatype": "string"
+            },
+            {
+                "name": "Rok",
+                "datatype": "string"
+            },
+            {
+                "name": "Latka",
+                "datatype": "string"
+            },
+            {
+                "name": "Stat",
+                "datatype": "string"
+            }
+        ]
+    }
+}

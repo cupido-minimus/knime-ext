@@ -1,0 +1,4 @@
+[nazev]=Podíl zemědělské půdy, orné půdy a trvalých travních porostů u vybraných států EU [%], 2016
+[indikator]=g4
+[url]=https://appsso.eurostat.ec.europa.eu/nui/show.do?dataset=ef_lus_main&lang=en
+[knime]=knime

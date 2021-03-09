@@ -1,0 +1,31 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw#",
+        {
+            "@language": "cs"
+        }
+    ],
+    "url": "http://star.env.cz/dataset/cenia-obaly-vyuziti-2018",
+    "dc:publisher": "CENIA, ceská informacní agentura životního prostředí",
+    "dc:title": "Využití obalových odpadů v ČR [tis. t], 2009–2018",
+    "tableSchema": {
+        "columns": [
+            {
+                "name": "Hodnota",
+                "datatype": "number"
+            },
+            {
+                "name": "Jednotka",
+                "datatype": "string"
+            },
+            {
+                "name": "Rok",
+                "datatype": "string"
+            },
+            {
+                "name": "Vyuziti",
+                "datatype": "string"
+            }
+        ]
+    }
+}

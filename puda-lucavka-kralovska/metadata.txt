@@ -1,0 +1,4 @@
+[nazev]=Podíl vzorků půdy překračujících preventivní hodnoty obsahu prvků ve výluhu lučavky královské v ČR [%], 1998–2018
+[indikator]=24
+[knime]=Z excelu vytahnu jen sloupec z prvkama a posledni sloupec I
+[pzn]=V issaru to mohu najit pod id_typ = 352, ale jen pro rok 2016

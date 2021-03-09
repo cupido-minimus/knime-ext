@@ -1,0 +1,35 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw#",
+        {
+            "@language": "cs"
+        }
+    ],
+    "url": "http://star.env.cz/dataset/cenia-doprava-emise-etl-2018",
+    "dc:publisher": "Centrum dopravního výzkumu",
+    "dc:title": "Emise z dopravy_vyvoj",
+    "tableSchema": {
+        "columns": [
+            {
+                "name": "Mnozstvi",
+                "datatype": "number"
+            },
+            {
+                "name": "Rok",
+                "datatype": "string"
+            },
+            {
+                "name": "Doprava",
+                "datatype": "string"
+            },
+            {
+                "name": "Latka",
+                "datatype": "string"
+            },
+            {
+                "name": "Jednotka",
+                "datatype": "string"
+            }
+        ]
+    }
+}

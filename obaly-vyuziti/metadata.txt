@@ -1,0 +1,3 @@
+[nazev]=Využití obalových odpadů v ČR [tis. t], 2009–2018
+[indikator]=43
+[knime]=Knime

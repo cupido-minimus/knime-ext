@@ -1,0 +1,3 @@
+[nazev]=Emise z dopravy_vyvoj 
+[indikator]=36
+[knime]=popis

@@ -1,0 +1,26 @@
+{
+    "Zdroj hluku": "Zdroj hluku",
+    "Zdroj hluku:hodnoty": {
+        "Silniční doprava": "Silniční doprava",
+        "Železniční doprava": "Železniční doprava",
+        "Letecká doprava": "Letecká doprava",
+        "Integrovaná zařízení": "Integrovaná zařízení"
+    },
+    "Hodnota": "Hodnota",
+    "Hodnota:hodnoty": {
+        "70": "70",
+        "60": "60",
+        "50": "50",
+        "65": "65",
+        "40": "40"
+    },
+    "Hlukový indikátor": "Hlukový indikátor",
+    "Hlukový indikátor:hodnoty": {
+        "pro den, večer a noc": "pro den, večer a noc",
+        "pro noční hodiny": "pro noční hodiny"
+    },
+    "Jednotka": "Jednotka",
+    "Jednotka:hodnoty": {
+        "dB": "dB"
+    }
+}

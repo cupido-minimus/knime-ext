@@ -1,0 +1,3 @@
+[nazev]=Investiční výdaje Správy KRNAP [mil. Kč], 2010–2018
+[indikator]=p1
+[knime]=Popis

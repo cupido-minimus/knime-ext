@@ -1,0 +1,31 @@
+{
+    "Hodnota": "Hodnota",
+    "Hodnota:hodnoty": {
+        "40": "40",
+        "2": "2",
+        "7": "7",
+        "0": "0",
+        "6": "6"
+    },
+    "Jednotka": "Jednotka",
+    "Jednotka:hodnoty": {
+        "Pocet": "Pocet"
+    },
+    "Rok": "Rok",
+    "Rok:hodnoty": {
+        "2018": "2018"
+    },
+    "Vzorky": "Vzorky",
+    "Vzorky:hodnoty": {
+        "Celkovy pocet vzorku": "Celkovy pocet vzorku",
+        "Pocet nadlimitnich vzorku": "Pocet nadlimitnich vzorku"
+    },
+    "Latka": "Latka",
+    "Latka:hodnoty": {
+        "PCB": "PCB",
+        "PAH": "PAH",
+        "HCH": "HCH",
+        "HCB": "HCB",
+        "DDT": "DDT"
+    }
+}

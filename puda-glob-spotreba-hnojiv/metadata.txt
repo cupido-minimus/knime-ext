@@ -1,0 +1,4 @@
+[nazev]=Sales of fertilisers by type of nutrient - 2017
+[indikator]=g6
+[url]=https://ec.europa.eu/eurostat/databrowser/view/tai01/default/table?lang=en
+[knime]=knime

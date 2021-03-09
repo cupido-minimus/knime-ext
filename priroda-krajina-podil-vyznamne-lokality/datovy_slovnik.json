@@ -1,0 +1,35 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw#",
+        {
+            "@language": "cs"
+        }
+    ],
+    "url": "http://star.env.cz/dataset/cenia-priroda-krajina-podil-vyznamne-lokality-2018",
+    "dc:publisher": "European Environment Agency",
+    "dc:title": "Podíl pevninských evropsky významných lokalit a ptačích oblastí na ploše států EU28 [%], 2018",
+    "tableSchema": {
+        "columns": [
+            {
+                "name": "Hodnota",
+                "datatype": "number"
+            },
+            {
+                "name": "Jednotka",
+                "datatype": "string"
+            },
+            {
+                "name": "Rok",
+                "datatype": "string"
+            },
+            {
+                "name": "Stát",
+                "datatype": "string"
+            },
+            {
+                "name": "Kategorie",
+                "datatype": "string"
+            }
+        ]
+    }
+}

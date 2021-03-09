@@ -1,0 +1,4 @@
+[nazev]=Utilised agricultural area by categories - Thousand ha - 2017
+[indikator]=g6
+[url]=https://ec.europa.eu/eurostat/tgm/table.do?tab=table&init=1&language=en&pcode=tag00025&plugin=1
+[knime]=knime

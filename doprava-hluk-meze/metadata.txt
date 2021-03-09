@@ -1,0 +1,4 @@
+[nazev]=Mezní hodnoty hlukových indikátorů v ČR [dB]
+[indikator]=37
+[obdobi]=2018
+[knime]=Popis knime

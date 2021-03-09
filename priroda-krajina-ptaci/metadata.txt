@@ -1,0 +1,4 @@
+[nazev]=Vývoj indikátoru běžných druhů ptáků, lesních druhů ptáků a ptáků zemědělské krajiny v Evropě [index, 1990 = 100], 1990–2016
+[indikator]=g4
+[url]=https://pecbms.info/european-wild-bird-indicators-2018-update/
+[knime]=knime

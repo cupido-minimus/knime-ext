@@ -1,0 +1,4 @@
+[nazev]=Podíl pevninských evropsky významných lokalit a ptačích oblastí na ploše států EU28 [%], 2018
+[indikator]=g4
+[url]=https://www.eea.europa.eu/themes/biodiversity/document-library/natura-2000/natura-2000-network-statistics/natura-2000-barometer-statistics/statistics/barometer-statistics
+[knime]=knime

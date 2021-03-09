@@ -1,0 +1,4 @@
+[nazev]=Stav evropsky významných typů přírodních stanovišť v EU25 dle formačních skupin [%], 2007–2012
+[indikator]=g4
+[url]=https://www.eea.europa.eu/data-and-maps/daviz/conservation-status-by-main-type-1#tab-chart_1
+[knime]=knime

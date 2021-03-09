@@ -1,0 +1,6 @@
+[nazev]=Pohyb obyvatel za ČR, kraje, okresy, SO ORP a obce
+[indikator]=10
+[roky_v_jednom]
+[knime]=popis
+[url]=https://www.czso.cz/csu/czso/pohyb-obyvatel-za-cr-kraje-okresy-so-orp-a-obce
+[pzn]=Da se stahnout CSV z https://www.czso.cz/csu/czso/pohyb-obyvatel-za-cr-kraje-okresy-so-orp-a-obce

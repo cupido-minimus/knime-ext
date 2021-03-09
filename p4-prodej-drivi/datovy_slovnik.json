@@ -1,0 +1,31 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw#",
+        {
+            "@language": "cs"
+        }
+    ],
+    "url": "http://star.env.cz/dataset/cenia-p4-prodej-drivi-2018",
+    "dc:publisher": "Národní park České Švýcarsko",
+    "dc:title": "Prodej dříví Správou NP České Švýcarsko – tržby z prodeje dřeva, průměrná cena a náklady [mil. Kč, Kč.m‑3], 2010–2018",
+    "tableSchema": {
+        "columns": [
+            {
+                "name": "Hodnota",
+                "datatype": "number"
+            },
+            {
+                "name": "Jednotka",
+                "datatype": "string"
+            },
+            {
+                "name": "Rok",
+                "datatype": "string"
+            },
+            {
+                "name": "Prodej",
+                "datatype": "string"
+            }
+        ]
+    }
+}

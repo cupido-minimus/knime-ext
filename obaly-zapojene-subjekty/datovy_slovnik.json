@@ -1,0 +1,31 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw#",
+        {
+            "@language": "cs"
+        }
+    ],
+    "url": "http://star.env.cz/dataset/cenia-obaly-zapojene-subjekty-2018",
+    "dc:publisher": "CENIA, ceská informacní agentura životního prostředí",
+    "dc:title": "Počet subjektů zapojených do systému EKO-KOM, které jsou nositeli povinnosti využití odpadů z obalů nebo povinnosti zpětného odběru, a počet obcí zapojených do systému EKO-KOM, 2009–2018",
+    "tableSchema": {
+        "columns": [
+            {
+                "name": "Hodnota",
+                "datatype": "number"
+            },
+            {
+                "name": "Jednotka",
+                "datatype": "string"
+            },
+            {
+                "name": "Rok",
+                "datatype": "string"
+            },
+            {
+                "name": "Typ Subjektu",
+                "datatype": "string"
+            }
+        ]
+    }
+}
