@@ -1,0 +1,37 @@
+
+{
+    "type": "object",
+    "properties": {
+        "variable-input-79": {
+            "type": "object",
+            "properties": {
+                "variables": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "variable-string": {
+                                "type": "string",
+                                "default": "somevariable"
+                            }
+                        }
+                    }
+                }
+            },
+            "description": "",
+            "example": {
+                "variables": [
+                    {
+                        "variable-string": "somevariable"
+                    },
+                    {
+                        "variable-double": 42.0
+                    },
+                    {
+                        "variable-int": 100
+                    }
+                ]
+            }
+        }
+    }
+}

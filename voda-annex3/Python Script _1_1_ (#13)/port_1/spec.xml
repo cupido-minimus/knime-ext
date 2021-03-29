@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="spec.xml">
+<entry key="spec_name" type="xstring" value="default"/>
+<entry key="number_columns" type="xint" value="2"/>
+<config key="column_spec_0">
+<entry key="column_name" type="xstring" value="ds_title"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain">
+<config key="possible_values">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="%%00010Annex 3 Inland bathing water quality results %%00010in 2018%%00010"/>
+</config>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_1">
+<entry key="column_name" type="xstring" value="ds_table"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+</config>
+<config key="column_domain">
+<config key="possible_values">
+<entry key="array-size" type="xint" value="1"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="Country Total number   Excellent Good quality Sufficient Poor quality Not %%00010of bathing quality quality classified (*)%%00010waters%%000102018 (2017) Number % Number % Number % Number % Number %%%00010AT (Austria) 263 (263) 256 97.3 5 1.9 0 0.0 1 0.4 1 0.4%%00010BE (Belgium) 73 (71) 60 82.2 9 12.3 2 2.7 1 1.4 1 1.4%%00010BG (Bulgaria) 4 (4) 1 25.0 3 75.0 0 0.0 0 0.0 0 0.0%%00010CZ (Czechia) 153 (154) 125 81.7 14 9.2 2 1.3 2 1.3 10 6.5%%00010DE (Germany) 1 923 (1 921) 1 810 94.1 63 3.3 11 0.6 4 0.2 35 1.8%%00010DK (Denmark) 116 (114) 107 92.2 4 3.4 1 0.9 1 0.9 3 2.6%%00010EE (Estonia) 27 (27) 21 77.8 4 14.8 2 7.4 0 0.0 0 0.0%%00010ES (Spain) 263 (259) 127 48.3 68 25.9 13 4.9 41 15.6 14 5.3%%00010FI (Finland) 225 (222) 205 91.1 8 3.6 1 0.4 1 0.4 10 4.4%%00010FR (France) 1 310 (1 314) 1 008 76.9 155 11.8 54 4.1 26 2.0 67 5.1%%00010GR (Greece) 3 (3) 1 33.3 1 33.3 0 0.0 0 0.0 1 33.3%%00010HR (Croatia) 27 (27) 14 51.9 12 44.4 1 3.7 0 0.0 0 0.0%%00010HU (Hungary) 253 (257) 183 72.3 30 11.9 12 4.7 8 3.2 20 7.9%%00010IE (Ireland) 9 (9) 8 88.9 0 0.0 0 0.0 1 11.1 0 0.0%%00010IT (Italy) 668 (667) 605 90.6 28 4.2 14 2.1 10 1.5 11 1.6%%00010LT (Lithuania) 101 (98) 85 84.2 9 8.9 2 2.0 1 1.0 4 4.0%%00010LU (Luxembourg) 15 (12) 11 73.3 0 0 0 0.0 0 0.0 4 26.7%%00010LV (Latvia) 23 (23) 20 87.0 1 4.3 1 4.3 0 0.0 1 4.3%%00010NL (Netherlands) 634 (626) 460 72.6 107 16.9 34 5.4 25 3.9 8 1.3%%00010PL (Poland) 337 (108) 90 26.7 11 3.3 1 0.3 3 0.9 232 68.8%%00010PT (Portugal) 128 (123) 101 78.9 13 10.2 4 3.1 2 1.6 8 6.3%%00010RO (Romania) 1 (1) 0 0.0 1 100.0 0 0.0 0 0.0 0 0.0%%00010SE (Sweden) 192 (197) 166 86.5 17 8.9 0 0.0 0 0.0 9 4.7%%00010SI (Slovenia) 26 (26) 20 76.9 5 19.2 1 3.8 0 0.0 0 0.0%%00010SK (Slovakia) 32 (32) 18 56.3 9 28.1 1 3.1 1 3.1 3 9.4%%00010UK (United Kingdom) 16 (16) 10 62.5 4 25.0 2 12.5 0 0.0 0 0.0%%00010EU 6 822 (6 574) 5 512 80.8 581 8.5 159 2.3 128 1.9 442 6.5%%00010Al (Albania) 6 (0) 0 0.0 0 0.0 0 0.0 0.0 0.0 6 100.0%%00010CH (Switzerland) 192 (190) 144 75.0 10 5.2 2 1.0 0.5 0.3 34 17.7%%00010Europe 7 020 (6764) 5 656 80.6 591 8.4 161 2.3 130 1.9 482 6.9%%00010Note: (*)  See Annex 4 and Annex 5.%%00010Source: EEA.%%00010European Bathing Water Quality in 2018 15%%00010"/>
+</config>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+</config>

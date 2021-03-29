@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack">
+<config key="Variable_0">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="variable-string"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="somevariable"/>
+</config>
+<config key="Variable_1">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="variable-double"/>
+<entry key="class" type="xstring" value="DOUBLE"/>
+<entry key="value" type="xdouble" value="42.0"/>
+</config>
+<config key="Variable_2">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="variable-int"/>
+<entry key="class" type="xstring" value="INTEGER"/>
+<entry key="value" type="xint" value="100"/>
+</config>
+</config>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="parameterName" type="xstring" value="variable-input"/>
+<entry key="description" type="xstring" value=""/>
+<entry key="inputPathOrUrl" type="xstring" isnull="true" value=""/>
+<entry key="exampleInput" type="xstring" value="%%00010{%%00010    &quot;variables&quot;: [%%00010        {%%00010            &quot;variable-string&quot;: &quot;somevariable&quot;%%00010        },%%00010        {%%00010            &quot;variable-double&quot;: 42.0%%00010        },%%00010        {%%00010            &quot;variable-int&quot;: 100%%00010        }%%00010    ]%%00010}"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<config key="nodecontainer_message">
+<entry key="type" type="xstring" value="WARNING"/>
+<entry key="message" type="xstring" value="Default variables are output"/>
+</config>
+<entry key="factory" type="xstring" value="org.knime.json.node.container.input.variable.ContainerVariableInputNodeFactory"/>
+<entry key="node-name" type="xstring" value="Container Input (Variable)"/>
+<entry key="node-bundle-name" type="xstring" value="JSON related functionality for KNIME"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.json"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="4.1.0.v201911110939"/>
+<entry key="node-feature-name" type="xstring" value="KNIME JSON-Processing"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.json.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="4.1.0.v201911110939"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Container Input (Variable)"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObjectSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObject"/>
+<entry key="port_object_summary" type="xstring" value="Variables connection"/>
+<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="1a190bc8-ce84-45d4-9903-b366cf23a4c3"/>
+</config>
+</config>

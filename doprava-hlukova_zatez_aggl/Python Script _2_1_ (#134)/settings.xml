@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack">
+<config key="Variable_0">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ds_nazev"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Number of people in agglomerations exposed to noise from roads (Lden and Lnight)"/>
+</config>
+<config key="Variable_1">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="poznamka"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value=" -2 : Data not Provided / -1: No Reporting Obligation"/>
+</config>
+</config>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<entry key="sourceCode" type="xstring" value="import pandas as pd %%00010%%00010flow_variables['ds_nazev'] = flow_variables['Row0']%%00010flow_variables['poznamka'] = flow_variables['Row1']%%00010%%00010tb1 = input_table_1%%00010tb2 = input_table_2%%00010%%00010tb = {'Year': [], 'Category': [], 'dB_interval': [], 'Value': []}%%00010%%00010#structure%%00010for col1 in tb1.columns:%%00010%%00009tb[tb1[col1][1]] = []%%00010%%00010tb_j = tb2.join(tb1)%%00010%%00010for col in tb_j.columns:%%00010%%00009for i in range(2, tb_j.shape[0]):%%00010%%00009%%00009if col not in tb1:%%00010%%00009%%00009%%00009if tb_j[col][0] is not None:%%00010%%00009%%00009%%00009%%00009category = tb_j[col][0]%%00010%%00009%%00009%%00009%%00009%%00009%%00010%%00009%%00009%%00009tb['Category'].append(category)%%00010%%00009%%00009%%00009tb['dB_interval'].append(tb_j[col][1])%%00010%%00009%%00009%%00009tb['Value'].append(tb_j[col][i])%%00010%%00009%%00009%%00009tb['Year'].append(flow_variables['rok'])%%00010%%00009%%00009%%00009for col1 in tb1.columns:%%00010%%00009%%00009%%00009%%00009tb[tb1[col1][1]].append(tb1[col1][i])%%00010%%00009%%00009%%00010output_table = pd.DataFrame(tb)"/>
+<entry key="rowLimit" type="xint" value="1000"/>
+<entry key="pythonVersionOption" type="xstring" value="python3"/>
+<entry key="python2Command" type="xstring" value=""/>
+<entry key="python3Command" type="xstring" value=""/>
+<entry key="chunkSize" type="xint" value="500000"/>
+<entry key="convertMissingToPython" type="xboolean" value="false"/>
+<entry key="convertMissingFromPython" type="xboolean" value="false"/>
+<entry key="sentinelOption" type="xstring" value="MIN_VAL"/>
+<entry key="sentinelValue" type="xint" value="0"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.python2.nodes.script2in1out.Python2Script2In1OutNodeFactory"/>
+<entry key="node-name" type="xstring" value="Python Script (2⇒1)"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Python nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.python2.nodes"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="4.2.0.v202006261130"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Python Integration"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.python2.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="4.2.0.v202008251144"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Python Script (2⇒1)"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 10320, Cols: 14"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="51cf9c39-3685-4f42-852d-96d97097fc47"/>
+</config>
+</config>
