@@ -1,3 +1,0 @@
-[nazev]=Investiční výdaje Správy NP Šumava [mil. Kč], 2010–2018
-[indikator]=p2
-[knime]=Popis

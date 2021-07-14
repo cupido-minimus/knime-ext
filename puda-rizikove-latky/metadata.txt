@@ -1,4 +1,0 @@
-[nazev]=Podíl vzorků překračujících preventivní hodnoty rizikových organických látek na zemědělské půdě v ČR [%], 2018
-[indikator]=24
-[knime]=popis
-[pzn]=V issaru to mohu najit pod id_typ = 352, ale jen pro rok 2017

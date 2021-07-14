@@ -1,3 +1,0 @@
-[nazev]=Návštěvnost infostředisek Správy NP Šumava a celková návštěvnost parku [tis. návštěvníků], 2010–2018
-[indikator]=p2
-[knime]=Popis

@@ -1,4 +1,0 @@
-[nazev]=Transport
-[indikator]=35
-[obdobi]=2018
-[knime]=Data pro transformaci jsou v na listu CZ, tabulka Transport, řádky 19-22

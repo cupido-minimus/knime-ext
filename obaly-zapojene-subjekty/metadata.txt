@@ -1,3 +1,0 @@
-[nazev]=Počet subjektů zapojených do systému EKO-KOM, které jsou nositeli povinnosti využití odpadů z obalů nebo povinnosti zpětného odběru, a počet obcí zapojených do systému EKO-KOM, 2009–2018
-[indikator]=43
-[knime]=Knime

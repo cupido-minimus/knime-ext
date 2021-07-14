@@ -1,7 +1,0 @@
-[nazev]=Počet obyvatel napojených na kanalizaci, 2006–2018
-[indikator]=10
-[roky_v_jednom]
-[url]=https://www.czso.cz/csu/czso/vodovody-kanalizace-a-vodni-toky-2018
-[pzn]=na strankach je to kapitola 1.2.1 Kanalizace – obyvatelé napojení na kanalizaci a ČOV
-[pzn]=tyka se grafu 1 zpravy na str 72
-[knime]=popoi

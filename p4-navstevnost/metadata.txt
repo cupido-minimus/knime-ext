@@ -1,3 +1,0 @@
-[nazev]=Návštěvnost infostředisek Správy NP České Švýcarsko a celková návštěvnost parku*) [tis. návštěvníků], 2010–2018
-[indikator]=p4
-[knime]=Popis

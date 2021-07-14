@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack">
+<config key="Variable_0">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="ds_nazev"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="Kategorie lesů dle krajů"/>
+</config>
+<config key="Variable_1">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="id_ds"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="kategorie-lesu-kraje"/>
+</config>
+<config key="Variable_2">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="csv"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="uhul-kategorie-lesu-kraje-2018.csv"/>
+</config>
+<config key="Variable_3">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="zdroj"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="ÚHUL"/>
+</config>
+<config key="Variable_4">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="rok"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="2018"/>
+</config>
+<config key="Variable_5">
+<entry key="type" type="xstring" value="variable"/>
+<entry key="name" type="xstring" value="url"/>
+<entry key="class" type="xstring" value="STRING"/>
+<entry key="value" type="xstring" value="../Data_UHUL_2018.xlsx"/>
+</config>
+</config>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="expressions">
+<config key="element 0">
+<entry key="expression" type="xstring" value="&quot;Kategorie lesů dle krajů&quot;"/>
+<entry key="outputName" type="xstring" value="ds_nazev"/>
+<entry key="outputType" type="xstring" value="STRING"/>
+<entry key="replaceVariable" type="xboolean" value="false"/>
+</config>
+<config key="element 1">
+<entry key="expression" type="xstring" value="&quot;kategorie-lesu-kraje&quot;"/>
+<entry key="outputName" type="xstring" value="id_ds"/>
+<entry key="outputType" type="xstring" value="STRING"/>
+<entry key="replaceVariable" type="xboolean" value="false"/>
+</config>
+<config key="element 2">
+<entry key="expression" type="xstring" value="&quot;uhul-kategorie-lesu-kraje-2018.csv&quot;"/>
+<entry key="outputName" type="xstring" value="csv"/>
+<entry key="outputType" type="xstring" value="STRING"/>
+<entry key="replaceVariable" type="xboolean" value="false"/>
+</config>
+<config key="element 3">
+<entry key="expression" type="xstring" value="&quot;ÚHUL&quot;"/>
+<entry key="outputName" type="xstring" value="zdroj"/>
+<entry key="outputType" type="xstring" value="STRING"/>
+<entry key="replaceVariable" type="xboolean" value="false"/>
+</config>
+<config key="element 4">
+<entry key="expression" type="xstring" value="2018"/>
+<entry key="outputName" type="xstring" value="rok"/>
+<entry key="outputType" type="xstring" value="STRING"/>
+<entry key="replaceVariable" type="xboolean" value="false"/>
+</config>
+<config key="element 5">
+<entry key="expression" type="xstring" value="&quot;../Data_UHUL_2018.xlsx&quot;"/>
+<entry key="outputName" type="xstring" value="url"/>
+<entry key="outputType" type="xstring" value="STRING"/>
+<entry key="replaceVariable" type="xboolean" value="false"/>
+</config>
+</config>
+<entry key="count" type="xint" value="6"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.expressions.base.node.variableexpression.VariableExpressionsNodeFactory"/>
+<entry key="node-name" type="xstring" value="Variable Expressions"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Expression Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.expressions.base"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="4.3.0.v202011191431"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Expressions"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.expressions.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="4.3.0.v202011191431"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Variable Expressions"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObjectSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObject"/>
+<entry key="port_object_summary" type="xstring" value="Variables connection"/>
+<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="d8e8252b-7604-4ad0-bb4c-0443ae3eb41f"/>
+</config>
+</config>

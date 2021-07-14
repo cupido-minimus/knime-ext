@@ -1,3 +1,0 @@
-[nazev]=Investiční výdaje Správy NP Podyjí [mil. Kč], 2010–2018
-[indikator]=p3
-[knime]=Popis

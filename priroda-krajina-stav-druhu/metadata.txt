@@ -1,4 +1,0 @@
-[nazev]=Stav evropsky významných druhů živočichů a rostlin v EU25 dle taxonomických skupin [%], 2007–2012
-[indikator]=g4
-[url]=https://www.eea.europa.eu/data-and-maps/daviz/conservation-status-species-by-taxonomic-group-1#tab-chart_1
-[knime]=knime

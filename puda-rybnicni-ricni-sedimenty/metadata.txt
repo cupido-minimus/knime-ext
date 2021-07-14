@@ -1,3 +1,0 @@
-[nazev]=Podíl vzorků rybničních a říčních sedimentů překračujících limitní hodnoty v ČR [%], 1995–2018
-[indikator]=24
-[knime]=popis

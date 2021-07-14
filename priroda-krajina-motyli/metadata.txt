@@ -1,4 +1,0 @@
-[nazev]=Vývoj indikátoru lučních motýlů (17 druhů) v Evropě [index, 1990 = 100], 1990–2017
-[indikator]=g4
-[url]=https://www.eea.europa.eu/data-and-maps/daviz/european-grassland-butterfly-indicator-3#tab-chart_6
-[knime]=knime

@@ -1,3 +1,0 @@
-[nazev]=Počet infostředisek Správy NP Podyjí a celková návštěvnost parku [tis. návštěvníků], 2010–2018
-[indikator]=p3
-[knime]=Popis

@@ -1,4 +1,0 @@
-[nazev]=Sales of pesticides by type of pesticide - 2017
-[indikator]=g6
-[url]=https://ec.europa.eu/eurostat/databrowser/view/tai02/default/table?lang=en
-[knime]=knime

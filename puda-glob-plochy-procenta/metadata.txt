@@ -1,4 +1,0 @@
-[nazev]=Area under organic farming - 2017
-[indikator]=g6
-[url]=https://ec.europa.eu/eurostat/databrowser/view/sdg_02_40/default/table?lang=en
-[knime]=knime
